@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 html {
   box-sizing: border-box;
@@ -5,5 +7,35 @@ html {
 
 body {
   margin: 0;
-  min-height: 100vh;
+  /*min-height: 100vh;*/
+  font-family: 'Bebas Neue', sans-serif;
+  background-color: whitesmoke;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  font-size: 40px;
+  letter-spacing: 5px;
+}
+
+/* Loader */
+.loader {
+  /* makes .loader 100% wide and 100% tall */
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.loader img {
+  /* Positions image in the center of the screen */
+  position: fixed;
+  top:  50%;
+  left: 50%;
+  /* Fix center */
+  transform: translate(-50%, -50%);
 }

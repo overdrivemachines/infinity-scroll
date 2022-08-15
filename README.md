@@ -1,6 +1,10 @@
 # Infinity Scroll
 Show how to implement infinite scrolling functionality
 
+![Preview](preview.png)
+
+Live - https://overdrivemachines.github.io/infinity-scroll/
+
 ## Important Values
 - `window.innerHeight` - Total height of browser window
 - `window.scrollY` - Distance from top of page user has scrolled
